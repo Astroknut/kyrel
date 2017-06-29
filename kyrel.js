@@ -28,8 +28,32 @@ function main(n) {
   //// v YOUR CODE BELOW HERE v ////
   ////                          ////
   //////////////////////////////////
+if (onBlue() === true) {
+  erase();
+  moveRight();
+  moveRight();
+  moveRight();
+  moveRight();
+  useBlue();
+  draw();
+}
 
+else if (onGreen() === true) {
+  erase();
+  moveRight();
+  moveRight();
+  moveRight();
+  moveRight();
+  useGreen();
+  draw();
+}
 
+else {
+  moveRight();
+  moveRight();
+  moveRight();
+  moveRight();
+}
 
   //////////////////////////////////
   ////                          ////
